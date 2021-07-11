@@ -23,10 +23,15 @@ var miFuncion = function () {
 //Coerción Implícita
 var a = 4 + "7"; //"47"
 var b = 4 * "7"; // 28
-//asignarle un que tipo de datos es
+//cambiar un que tipo de datos es
 //Coerción Explícita
 var c = String(b);
 var d = Number(a);
 //el hoisting es cuando se declaran funciones o variables globales y se cargan la inicio por lo tanto las variables pasan a undefined
 //el scope es el alcanze de variables ya sean globales o sean solo de una funcion
-//
+//en array puedes usar funciones tales como
+.pop() //eliminar ultimo elemento
+.some()//retorna true o false y algun elemento cumple una condicion
+//foreach ejecuta funcion indicada por cada elemento del array
+.find() //retorna primer valor que cumpla una condicion y lo guarda en otro array
+.filter() //crea un array con lo resultados del metodo que cumplen la condicion
