@@ -1,0 +1,32 @@
+//Función constructora, para poder instanciar este objeto se necesitan 3 parametros.
+la sobrecarga de metodos es crear la funcion constructora con el mismo nombre pero con diferentes parametros
+function auto (marca, modelo, annio) {
+    this.marca = marca;
+    this.modelo = modelo;
+    this.annio = annio;
+}
+
+//Instancia (Genera un objeto que deriva de otro objeto)
+var autoNuevo = new auto("Tesla", "Model 3", 2020);
+
+//while es uun ciclo repetitivo que mientras se cumpla una condicion seguira dando iteraciones
+//for es un ciclo repetitivo donde le pasamos su posisicon de inicio y cuando termina de iterar
+//Funciones Declarativas
+function miFuncion(){
+    return 3;
+}
+//Funciones Expresión
+var miFuncion = function () {
+    return a + b;
+}
+//darle un tipo de dato sin declarar que tipo es
+//Coerción Implícita
+var a = 4 + "7"; //"47"
+var b = 4 * "7"; // 28
+//asignarle un que tipo de datos es
+//Coerción Explícita
+var c = String(b);
+var d = Number(a);
+//el hoisting es cuando se declaran funciones o variables globales y se cargan la inicio por lo tanto las variables pasan a undefined
+//el scope es el alcanze de variables ya sean globales o sean solo de una funcion
+//
